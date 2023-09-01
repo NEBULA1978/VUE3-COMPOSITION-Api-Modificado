@@ -7,15 +7,15 @@
 </template>
 
 <script setup>
-const emit=defineEmits(['modificar'])
-const enviar=()=>{
-    emit('modificar','Vue',9)
-}
+const emit = defineEmits(['modificar']);
+const enviar = () => {
+    emit('modificar', 'Vue', 9);
+};
 
 const props = defineProps({
-    nombre:String,
-    edad:Number,
-})
+    nombre: String,
+    edad: Number,
+});
 </script>
 
 <style scoped></style>
